@@ -1,6 +1,6 @@
 FROM centos:latest
 
-RUN apk --update add nginx php5-fpm && \
+RUN yum --update add nginx php5-fpm && \
     mkdir -p /var/log/nginx && \
     touch /var/log/nginx/access.log && \
     mkdir -p /run/nginx
