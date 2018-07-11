@@ -1,4 +1,4 @@
-Dios:
-  image: dockercloud/Dios
+Ishu:
+  image: dockercloud/Ishu
   ports:
-    - "80:80"
+    - "100:100"
