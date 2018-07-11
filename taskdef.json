@@ -1,16 +1,16 @@
 {
-    "family": "Bharat",
+    "family": "Dios",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "Bharat",
+            "name": "Dios",
             "cpu": 10,
             "memory": 256,
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": 90,
-                    "hostPort": 90
+                    "containerPort": 80,
+                    "hostPort": 80
                 }
             ]
         }
