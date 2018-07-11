@@ -1,4 +1,4 @@
-Ishu:
-  image: dockercloud/Ishu
+Anushree:
+  image: dockercloud/Anushree
   ports:
-    - "100:100"
+    - "110:110"
