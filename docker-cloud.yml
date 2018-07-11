@@ -1,4 +1,4 @@
 Ankur:
-  image: dockercloud/Ankur
+  image: dockercloud/Bharat
   ports:
     - "90:90"
